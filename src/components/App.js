@@ -1,13 +1,15 @@
-
 import React from "react";
-import './../styles/App.css';
+import "./../styles/App.css";
 
-const App = () => {
+import Tooltip from "./Tooltip";
+// import Form from "./Form";
+// import FetchData from "./FetchData";
+export default function App() {
   return (
-    <div>
-        {/* Do not remove the main div */}
+    <div className="App">
+      <Tooltip text={"Hover over me"}>
+        <p>This is tooltip</p>
+      </Tooltip>
     </div>
-  )
+  );
 }
-
-export default App

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import "./../styles/App.css";
 
@@ -13,3 +14,18 @@ export default function App() {
     </div>
   );
 }
+=======
+
+import React from "react";
+import './../styles/App.css';
+
+const App = () => {
+  return (
+    <div>
+        {/* Do not remove the main div */}
+    </div>
+  )
+}
+
+export default App
+>>>>>>> 7f45a965ee09ad89a0304c674e774911d2721229
